@@ -17,10 +17,16 @@ function ContactUs() {
   return (
     <Container fluid className="contact-us-section mt-4">
       <Row className="justify-content-center">
-        <Col xs={12} md={8}>
+        <Col xs={12} className="text-center">
           <h2>Contáctenos</h2>
-          <p>Si tienes preguntas o te gustaría saber más de nuestro extenso catálogo de productos, no dudes en contactarnos.
-            ¡Será un gusto ayudarte!</p>
+          <p>
+            Si tienes preguntas o te gustaría saber más de nuestro extenso catálogo de productos, no dudes en contactarnos.
+            ¡Será un gusto ayudarte!
+          </p>
+        </Col>
+      </Row>
+      <Row className="justify-content-center">
+        <Col xs={12} md={6} className="d-flex justify-content-center">
           <div className="contact-info text-center">
             <p><FaBuilding className="contact-icon" /> Oficinas Centrales: (503) 2212-7200</p>
             <p><FaPhone className="contact-icon" /> Call Center/Servicio a domicilio: (503) 2525-5050</p>
@@ -29,6 +35,8 @@ function ContactUs() {
             <p>Horario: Lunes a Viernes de 7:30 AM a 5:00 PM</p>
             <p>Oficinas Centrales: Plan de La Laguna, Polígono G, Lote N° 1, Antiguo Cuscatlán, La Libertad, El Salvador, C. A.</p>
           </div>
+        </Col>
+        <Col xs={12} md={6}>
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="formName">
               <Form.Label>Nombre</Form.Label>
