@@ -1,9 +1,10 @@
-import React, { useRef } from 'react';
+import React, { Component, useRef } from 'react';
 import CustomNavbar from './components/CustomNavbar';
 import ImageCarousel from './components/ImageCarousel';
 import InfoSection from './components/InfoSection';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
+import MyMap from './components/Map';
 import './App.css';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <div ref={contactUsRef}>
         <ContactUs />
       </div>
+      <MyMap />
       <Footer scrollToContactUs={scrollToContactUs} scrollToHome={scrollToHome} />
     </div>
   );
