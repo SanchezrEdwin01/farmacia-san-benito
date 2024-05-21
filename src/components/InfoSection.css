@@ -1,0 +1,58 @@
+.info-section {
+  margin: 20px 0;
+  padding: 0 15px;
+}
+
+.info-item {
+  display: flex;
+  justify-content: center;
+}
+
+.info-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+  height: 175px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.info-card .icon {
+  text-align: center;
+}
+
+.info-card .card-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.info-card hr {
+  margin: 10px 0;
+  border: 0;
+  border-top: 2px solid #ddd;
+}
+
+.info-card .card-text {
+  margin-bottom: 0;
+}
+
+.icon-facebook {
+  color: #14B9ED;
+}
+
+.icon-phone {
+  color: #99CA3C;
+}
+
+.icon-percentage {
+  color: #14B9ED;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card-link:hover .info-card {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

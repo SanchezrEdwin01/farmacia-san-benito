@@ -52,3 +52,27 @@
 .nav-link-custom:hover {
   color: #ddd !important;
 }
+
+.footer-custom {
+  background-color: #1A1C28;
+  padding: 20px 0;
+}
+
+.footer-nav-custom {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link-custom {
+  color: #fff !important;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.footer-link-custom:hover {
+  color: #ddd !important;
+}
+
+.footer-social-custom .nav-link {
+  margin-left: 10px;
+}
